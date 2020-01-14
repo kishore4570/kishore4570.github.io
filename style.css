@@ -5,8 +5,8 @@
 body{
     font-family: 'Poppins' , sans-serif;
     background-color:#000!important;
-    
 }
+
 header{
     position: relative;
     z-index: 1000000;
@@ -179,7 +179,7 @@ p{
         height: 100vh;
         background:url("./images/7.jpg");
         background-repeat: no-repeat;
-        
+        background-color: #000!important;
     }
     .contentBox{
         margin-left:0;   
