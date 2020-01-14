@@ -1,0 +1,552 @@
+<html>
+<head>
+    <title>SSN TROPHY</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="nav">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="./images/trophy.png" style="width:30px; height:50px"></a>
+                <a class="navbar-brand" href="#"><img src="./images/SSN.svg" style="width:67px; height:50px; float:right;"></a>
+                
+                <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                    <span class="navbar-toggler-icon">
+                        
+                    </span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-lg-auto">
+                    <li class="nav-item">
+                    <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#about">About us</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#games">Games</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#event">Rules</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact us</a>
+                    </li>
+                    
+                        
+                    
+                </ul>
+                </div>
+            </div>
+          </nav>
+    </header>
+    <div class="jumbotron jumbotron-fluid height100p banner" id="home">
+        <div class="container h100">
+            <div class="contentBox h100">
+                <div>
+                    
+                <h1 >SSN TROPHY</h1>
+                <h3>Feb 24-27</h3>
+                <p id="demo"></p>
+                <script>
+                // Set the date we're counting down to
+                var countDownDate = new Date("feb 24, 2020 09:30:00").getTime();
+
+                // Update the count down every 1 second
+                var x = setInterval(function() {
+
+                // Get today's date and time
+                var now = new Date().getTime();
+    
+                // Find the distance between now and the count down date
+                var distance = countDownDate - now;
+                    
+                // Time calculations for days, hours, minutes and seconds
+                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+                // Output the result in an element with id="demo"
+                document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+                + minutes + "m " + seconds + "s ";
+    
+                // If the count down is over, write some text 
+                if (distance < 0) {
+                    clearInterval(x);
+                    document.getElementById("demo").innerHTML = "EXPIRED";
+                }
+                }, 1000);
+                </script>
+
+            </div>
+            </div>
+        </div>
+    </div>
+    <section class="sec1" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="offset-sm-2 col-sm-8">
+                    <div class="headerText text-center">
+                            <h2>SSN COLLEGE OF ENGINEERING</h2>
+                            <p style="text-align:justify">Sri Sivasubramaniya Nadar College of Engineering (SSNCE) is the outcome of the vision and initiative of Dr. Shiv Nadar, Chairman, HCL Technologies and a pioneer in the field of Information Technology. The Institution stands out as a premier center of higher learning with a mission of pursuing excellence in education and research.
+                                <span id="dots"></span><span id="more"> SSN institutions, with its diverse and dynamic community of students offer a distinctive combination of some of the finest undergraduate, postgraduate and research programmes. The campus has been interconnected through wired as well as wireless (Wi-Fi) Network. In addition, online access is provided to reference books and journals. This has enabled SSN Institutions to adopt innovative teaching & learning methodologies. The institution is certified with ISO and accredited by NBA and NAAC. SSN has been consistently proving its class by retaining the top position among Anna University affiliated Engineering Colleges in Tamilnadu.</span></p>
+                            <button onclick="myFunction1()" id="myBtn">Read more</button>
+                            <script>
+                                function myFunction1() {
+                                  var dots = document.getElementById("dots");
+                                  var moreText = document.getElementById("more");
+                                  var btnText = document.getElementById("myBtn");
+                                
+                                  if (dots.style.display === "none") {
+                                    dots.style.display = "inline";
+                                    btnText.innerHTML = "Read more"; 
+                                    moreText.style.display = "none";
+                                  } else {
+                                    dots.style.display = "none";
+                                    btnText.innerHTML = "Read less"; 
+                                    moreText.style.display = "inline";
+                                  }
+                                }
+                                </script>
+                                
+                     </div>
+                    
+                </div>
+
+            </div>
+            <div class="flexc">
+
+                <div class="">
+                    <div class="">
+                        <img class="imgf" src="./images/shiv.svg" alt="Dr. Shiv Nadar" scale="0">
+                    </div>
+                    <div class="textf">
+                        <h5 class="">Dr. Shiv Nadar</h5>
+                        Founder &amp; Chairman
+                        <p><strong>HCL, Shiv Nadar Foundation</strong></p>
+
+                    </div> <!-- .et_pb_team_member_description -->
+                </div> <!-- .et_pb_team_member -->
+
+
+                <div class="">
+                    <div class="">
+                        <img class="imgf" src="./images/kala.svg" alt="Ms. Kala Vijayakumar" scale="0">
+                    </div>
+                    <div class="textf">
+                        <h5 class="">Ms. Kala Vijayakumar</h5>
+                        President
+                        <p><strong>SSN Institutions</strong></p>
+
+                    </div> <!-- .et_pb_team_member_description -->
+                </div>
+                <div class="">
+                    <div class="">
+                        <img class="imgf" src="./images/sali.svg" alt="Dr. S. Salivahanan" scale="0">
+                    </div>
+                    <div class="textf">
+                        <h5 class="">Dr. S. Salivahanan</h5>
+                        Principal
+                        <p><strong>SSN College of Engineering</strong></p>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="offset-sm-2 col-sm-8">
+                        <div class="headerText text-center">
+                                <h2>SSN TROPHY</h2>
+                                <p style="text-align: justify;">SSN trophy is the national level inter collegiate sports festival proudly organised by SSN College of Engineering for the past  17 years. An annual 4 day event, SSN trophy was first held in the year2003 with  participants competing in Basketball, Badminton and Table Tennis. Since then the SSN Trophy has grown manifold and has become one of the most desired and appreciated sporting events across the country.
+                                </p><span id="dots1"></span>
+                                
+                                <span id="more1">
+                                    <ul id="list">
+                                        <li>SSN trophy has a footfall over 1000 participants</li>
+                                        <li>50+ Institutions from over 5 states across India</li>
+                                        <li>13 events conducted across 8 sports</li>
+                                        <li>Cash Prizes and Awards worth Rs. 5 Lakhs</li>
+                                    </ul>
+                                    
+                                    
+                                    
+                                   <p> Over the years the Opening and closing ceremonies have been graced by various Indian Sportspersons such as Mr.Sharath Kamal, Mr.John Wright, Ms.Anita Paul, Shri.Robin Singh.We would proudly say that SSN Trophy has been a stepping stone for many currently successful sportspersons from other colleges have participated in SSN Trophy on their way to professional glory.
+This edition of the SSN Trophy is the edition and it is more special because it is the first year of the decade, we hope that it reaches a whole new level of grandeur, competition and excellence in sports.
+                                    
+                                </p></span>
+                                <button onclick="myFunction2()" id="myBtn1">Read more</button>
+                            <script>
+                                function myFunction2() {
+                                  var dots = document.getElementById("dots1");
+                                  var moreText = document.getElementById("more1");
+                                  var btnText = document.getElementById("myBtn1");
+                                  var lis=document.getElementById("list");
+                                
+                                  if (dots.style.display === "none") {
+                                    dots.style.display = "inline";
+                                    btnText.innerHTML = "Read more"; 
+                                    moreText.style.display = "none";
+                                    lis.style.display = "none";
+                                  } else {
+                                    dots.style.display = "none";
+                                    btnText.innerHTML = "Read less"; 
+                                    moreText.style.display = "inline";
+                                    lis.style.display = "inline";
+                                  }
+                                }
+                                </script>
+                        </div>
+                        
+                    </div>
+    
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <section class="blog text-center" id="games" >
+        <div class="container">
+            <div class="row">
+                <div class="offset-sm-2 col-sm-8">
+                    <div class="headerText text-center">
+                        <h2>GAMES</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3 icon">
+                    <div class="blogPost">
+                        <div class="imgBx">
+                            <img src="./images/basketball.png" class="img-fluid img-1">
+                        </div>
+                        <div class="content" style="color: whitesmoke;">
+                            <h1>BasketBall</h1>
+                            
+                            <p><strong>Game Incharge :</strong>Mathesh<br><strong>contact no: <a style="color:whitesmoke" href="tel:+918524907907">8524907907</a></strong></p>
+
+                            
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                                Rules
+                            </button>
+  
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle">BasketBall</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    </div>
+                                    <div class="modal-body">
+                                    <ol>
+                                        <li>The team can consist of 12 players maximum.</li>
+                                        <li style="text-align: justify;">The matches will be played in four quarters (10-2-10-5-10-2-10).</li>
+                                        <li>Entry fee : Men -Rs.2000 Women- Rs. 1000</li>
+                                    </ol>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 icon">
+                    <div class="blogPost">
+                        <div class="imgBx">
+                            <img src="./images/tennis.png" class="img-fluid img-1">
+                        </div>
+                        <div class="content">
+                            <h1>Tennis</h1>
+                            <p><strong>Game Incharge :</strong>Mathesh<br><strong>contact no: <a style="color:whitesmoke" href="tel:+918524907907">8524907907</a></strong></p>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                                Rules
+                            </button>
+  
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle">BasketBall</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    </div>
+                                    <div class="modal-body">
+                                    <ol>
+                                        <li>The team can consist of 12 players maximum.</li>
+                                        <li style="text-align: justify;">The matches will be played in four quarters (10-2-10-5-10-2-10).</li>
+                                        <li>Entry fee : Men -Rs.2000 Women- Rs. 1000</li>
+                                    </ol>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 icon">
+                    <div class="blogPost">
+                        <div class="imgBx">
+                            <img src="./images/cricket.png" class="img-fluid img-1">
+                        </div>
+                        <div class="content">
+                            <h1>Cricket</h1>
+                            <p><strong>Game Incharge :</strong>Mathesh<br><strong>contact no: <a style="color:whitesmoke" href="tel:+918524907907">8524907907</a></strong></p>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                                Rules
+                            </button>
+  
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle">BasketBall</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    </div>
+                                    <div class="modal-body">
+                                    <ol>
+                                        <li>The team can consist of 12 players maximum.</li>
+                                        <li style="text-align: justify;">The matches will be played in four quarters (10-2-10-5-10-2-10).</li>
+                                        <li>Entry fee : Men -Rs.2000 Women- Rs. 1000</li>
+                                    </ol>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 icon">
+                    <div class="blogPost">
+                        <div class="imgBx">
+                            <img src="./images/chess.png" class="img-fluid img-1">
+                        </div>
+                        <div class="content">
+                            <h1>Chess</h1>
+                            <p><strong>Game Incharge :</strong>Mathesh<br><strong>contact no: <a style="color:whitesmoke" href="tel:+918524907907">8524907907</a></strong></p>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                                Rules
+                            </button>
+  
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle">BasketBall</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    </div>
+                                    <div class="modal-body">
+                                    <ol>
+                                        <li>The team can consist of 12 players maximum.</li>
+                                        <li style="text-align: justify;">The matches will be played in four quarters (10-2-10-5-10-2-10).</li>
+                                        <li>Entry fee : Men -Rs.2000 Women- Rs. 1000</li>
+                                    </ol>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3 icon">
+                    <div class="blogPost">
+                        <div class="imgBx">
+                            <img src="./images/football.png" class="img-fluid img-1">
+                        </div>
+                        <div class="content">
+                            <h1>Football</h1>
+                            <p><strong>Game Incharge :</strong>Mathesh<br><strong>contact no: <a style="color:whitesmoke" href="tel:+918524907907">8524907907</a></strong></p>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                                Rules
+                            </button>
+  
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle">BasketBall</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    </div>
+                                    <div class="modal-body">
+                                    <ol>
+                                        <li>The team can consist of 12 players maximum.</li>
+                                        <li style="text-align: justify;">The matches will be played in four quarters (10-2-10-5-10-2-10).</li>
+                                        <li>Entry fee : Men -Rs.2000 Women- Rs. 1000</li>
+                                    </ol>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 icon">
+                    <div class="blogPost">
+                        <div class="imgBx">
+                            <img src="./images/badminton.png" class="img-fluid img-1">
+                        </div>
+                        <div class="content">
+                            <h1>Badminton</h1>
+                            <p><strong>Game Incharge :</strong>Mathesh<br><strong>contact no: <a style="color:whitesmoke" href="tel:+918524907907">8524907907</a></strong></p>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                                Rules
+                            </button>
+  
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle">BasketBall</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    </div>
+                                    <div class="modal-body">
+                                    <ol>
+                                        <li>The team can consist of 12 players maximum.</li>
+                                        <li style="text-align: justify;">The matches will be played in four quarters (10-2-10-5-10-2-10).</li>
+                                        <li>Entry fee : Men -Rs.2000 Women- Rs. 1000</li>
+                                    </ol>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 icon">
+                    <div class="blogPost">
+                        <div class="imgBx">
+                            <img src="./images/tabletennis.png" class="img-fluid img-1">
+                        </div>
+                        <div class="content">
+                            <h1>Table Tennis</h1>
+                            <p><strong>Game Incharge :</strong>Mathesh<br><strong>contact no: <a style="color:whitesmoke" href="tel:+918524907907">8524907907</a></strong></p>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                                Rules
+                            </button>
+  
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle">BasketBall</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    </div>
+                                    <div class="modal-body ">
+                                    <ol>
+                                        <li>The team can consist of 12 players maximum.</li>
+                                        <li style="text-align: justify;">The matches will be played in four quarters (10-2-10-5-10-2-10).</li>
+                                        <li>Entry fee : Men -Rs.2000 Women- Rs. 1000</li>
+                                    </ol>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 icon">
+                    <div class="blogPost">
+                        <div class="imgBx">
+                            <img src="./images/squash.png" class="img-fluid img-1">
+                        </div>
+                        <div class="content">
+                            <h1>Squash</h1>
+                            <p><strong>Game Incharge :</strong>Mathesh<br><strong>contact no: <a style="color:whitesmoke" href="tel:+918524907907">8524907907</a></strong></p>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                                Rules
+                            </button>
+  
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle">BasketBall</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    </div>
+                                    <div class="modal-body">
+                                    <ol>
+                                        <li>The team can consist of 12 players maximum.</li>
+                                        <li style="text-align: justify;">The matches will be played in four quarters (10-2-10-5-10-2-10).</li>
+                                        <li>Entry fee : Men -Rs.2000 Women- Rs. 1000</li>
+                                    </ol>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).scroll(function(){
+            $('.navbar').toggleClass('Scrolled',$(this).scrollTop() > $('.navbar').height());
+        });
+    </script>
+</body>
+</html> 
