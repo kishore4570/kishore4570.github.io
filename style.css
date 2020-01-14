@@ -180,6 +180,7 @@ p{
         background:url("./images/7.jpg");
         background-repeat: no-repeat;
         background-color: #000!important;
+        background-size: cover;
     }
     .contentBox{
         margin-left:0;   
