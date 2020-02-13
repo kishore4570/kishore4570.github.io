@@ -1,552 +1,524 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>SSN TROPHY</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <meta charset="utf-8">
+  <title>SSN EXLOG 2K20</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/ssn.svg" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="nav">
-            <div class="container">
-                <a class="navbar-brand" href="#"><img src="./images/trophy.png" style="width:30px; height:50px"></a>
-                <a class="navbar-brand" href="#"><img src="./images/SSN.svg" style="width:67px; height:50px; float:right;"></a>
-                
-                <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
-                    <span class="navbar-toggler-icon">
-                        
-                    </span>
-                </button>
-            
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-lg-auto">
-                    <li class="nav-item">
-                    <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#about">About us</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#games">Games</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#event">Rules</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact us</a>
-                    </li>
-                    
-                        
-                    
-                </ul>
-                </div>
-            </div>
-          </nav>
-    </header>
-    <div class="jumbotron jumbotron-fluid height100p banner" id="home">
-        <div class="container h100">
-            <div class="contentBox h100">
-                <div>
-                    
-                <h1 >SSN TROPHY</h1>
-                <h3>Feb 24-27</h3>
-                <p id="demo"></p>
-                <script>
-                // Set the date we're counting down to
-                var countDownDate = new Date("feb 24, 2020 09:30:00").getTime();
 
-                // Update the count down every 1 second
-                var x = setInterval(function() {
+<body >
 
-                // Get today's date and time
-                var now = new Date().getTime();
-    
-                // Find the distance between now and the count down date
-                var distance = countDownDate - now;
-                    
-                // Time calculations for days, hours, minutes and seconds
-                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    
-                // Output the result in an element with id="demo"
-                document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-                + minutes + "m " + seconds + "s ";
-    
-                // If the count down is over, write some text 
-                if (distance < 0) {
-                    clearInterval(x);
-                    document.getElementById("demo").innerHTML = "EXPIRED";
-                }
-                }, 1000);
-                </script>
+ 
+  <header id="header">
+    <div class="container">
 
-            </div>
-            </div>
-        </div>
+      <div id="logo" class="pull-left">
+        
+        <a href="./index.html">
+          <div class="ssn"><img src="./img/SSN.svg" style="width:90px"></div>
+        </a>
+      </div>
+      <div id="exl" class="exlo"><img src="./img/exlog.png" style="width:65px"></div>
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="#hero">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Event details</a></li>
+          <li><a href="#portfolio">Gallery</a></li>
+          <li><a href="#team">Core Committee</a></li>
+          <li><a href="">Register</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+          
+        </ul>
+     
+      </nav><!-- #nav-menu-container -->
     </div>
-    <section class="sec1" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="offset-sm-2 col-sm-8">
-                    <div class="headerText text-center">
-                            <h2>SSN COLLEGE OF ENGINEERING</h2>
-                            <p style="text-align:justify">Sri Sivasubramaniya Nadar College of Engineering (SSNCE) is the outcome of the vision and initiative of Dr. Shiv Nadar, Chairman, HCL Technologies and a pioneer in the field of Information Technology. The Institution stands out as a premier center of higher learning with a mission of pursuing excellence in education and research.
-                                <span id="dots"></span><span id="more"> SSN institutions, with its diverse and dynamic community of students offer a distinctive combination of some of the finest undergraduate, postgraduate and research programmes. The campus has been interconnected through wired as well as wireless (Wi-Fi) Network. In addition, online access is provided to reference books and journals. This has enabled SSN Institutions to adopt innovative teaching & learning methodologies. The institution is certified with ISO and accredited by NBA and NAAC. SSN has been consistently proving its class by retaining the top position among Anna University affiliated Engineering Colleges in Tamilnadu.</span></p>
-                            <button onclick="myFunction1()" id="myBtn">Read more</button>
-                            <script>
-                                function myFunction1() {
-                                  var dots = document.getElementById("dots");
-                                  var moreText = document.getElementById("more");
-                                  var btnText = document.getElementById("myBtn");
-                                
-                                  if (dots.style.display === "none") {
-                                    dots.style.display = "inline";
-                                    btnText.innerHTML = "Read more"; 
-                                    moreText.style.display = "none";
-                                  } else {
-                                    dots.style.display = "none";
-                                    btnText.innerHTML = "Read less"; 
-                                    moreText.style.display = "inline";
-                                  }
-                                }
-                                </script>
-                                
-                     </div>
-                    
-                </div>
+  </header><!-- #header -->
 
-            </div>
+  <!--==========================
+    Hero Section
+  ============================-->
+  <section id="hero">
+    <div class="hero-container">
+      <h1>SSN EXLOG 2K20</h1>
+      <h2>National Level Mathematical Symposium</h2>
+      <a href="https://forms.gle/obgSZ1ua5q18ws6w7" target="_blank" class="btn-get-started">Register</a>
+    </div>
+  </section><!-- #hero -->
+
+  <main id="main">
+
+    <!--==========================
+      About Us Section
+    ============================-->
+    <section id="about">
+      <div class="container">
+        
+
+        
+            <h2 style="padding-top: 10px;text-align: center;background:transparent; width: 100%; color:black;"
+            class="abouts">About SSN
+        </h2>
+        <div class="cont" >Sri Sivasubramaniya Nadar College of Engineering (SSNCE)
+            is
+            the outcome of the
+            vision
+            and
+            initiative of Dr. Shiv Nadar, Chairman, HCL Technologies and a pioneer in the field of
+            Information
+            Technology. The Institution stands out as a premier center of higher learning with a mission of
+            pursuing
+            excellence in education and research. SSN institutions, with its diverse and dynamic community
+            of
+            students
+            offer a distinctive combination of some of the finest undergraduate, postgraduate and research
+            programmes.
+            The campus has been interconnected through wired as well as wireless (Wi-Fi) Network. In
+            addition,
+            online
+            access is provided to reference books and journals. This has enabled SSN Institutions to adopt
+            innovative
+            teaching & learning methodologies. The institution is certified with ISO and accredited by NBA
+            and NAAC.
+            SSN
+            has been consistently proving its class by retaining the top position among Anna University
+            affiliated
+            Engineering Colleges in Tamilnadu.</div>
+
+           
+
             <div class="flexc">
 
-                <div class="">
-                    <div class="">
-                        <img class="imgf" src="./images/shiv.svg" alt="Dr. Shiv Nadar" scale="0">
-                    </div>
-                    <div class="textf">
-                        <h5 class="">Dr. Shiv Nadar</h5>
-                        Founder &amp; Chairman
-                        <p><strong>HCL, Shiv Nadar Foundation</strong></p>
+              <div class="">
+                  <div class="">
+                      <img class="imgf" src="./img/founder.88041406.svg" alt="Dr. Shiv Nadar" scale="0">
+                  </div>
+                  <div class="textf">
+                      <h5 class="">Dr. Shiv Nadar</h5>
+                      Founder &amp; Chairman
+                      <p><strong>HCL, Shiv Nadar Foundation</strong></p>
 
-                    </div> <!-- .et_pb_team_member_description -->
-                </div> <!-- .et_pb_team_member -->
+                  </div> <!-- .et_pb_team_member_description -->
+              </div> <!-- .et_pb_team_member -->
 
 
-                <div class="">
-                    <div class="">
-                        <img class="imgf" src="./images/kala.svg" alt="Ms. Kala Vijayakumar" scale="0">
-                    </div>
-                    <div class="textf">
-                        <h5 class="">Ms. Kala Vijayakumar</h5>
-                        President
-                        <p><strong>SSN Institutions</strong></p>
+              <div class="">
+                  <div class="">
+                      <img class="imgf" src="./img/president.948688e0.svg" alt="Ms. Kala Vijayakumar" scale="0">
+                  </div>
+                  <div class="textf">
+                      <h5 class="">Ms. Kala Vijayakumar</h5>
+                      President
+                      <p><strong>SSN Institutions</strong></p>
 
-                    </div> <!-- .et_pb_team_member_description -->
-                </div>
-                <div class="">
-                    <div class="">
-                        <img class="imgf" src="./images/sali.svg" alt="Dr. S. Salivahanan" scale="0">
-                    </div>
-                    <div class="textf">
-                        <h5 class="">Dr. S. Salivahanan</h5>
-                        Principal
-                        <p><strong>SSN College of Engineering</strong></p>
+                  </div> <!-- .et_pb_team_member_description -->
+              </div>
+              <div class="">
+                  <div class="">
+                      <img class="imgf" src="./img/principal.cc6d36f1.svg" alt="Dr. S. Salivahanan" scale="0">
+                  </div>
+                  <div class="textf">
+                      <h5 class="">Dr. S. Salivahanan</h5>
+                      Principal
+                      <p><strong>SSN College of Engineering</strong></p>
 
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="offset-sm-2 col-sm-8">
-                        <div class="headerText text-center">
-                                <h2>SSN TROPHY</h2>
-                                <p style="text-align: justify;">SSN trophy is the national level inter collegiate sports festival proudly organised by SSN College of Engineering for the past  17 years. An annual 4 day event, SSN trophy was first held in the year2003 with  participants competing in Basketball, Badminton and Table Tennis. Since then the SSN Trophy has grown manifold and has become one of the most desired and appreciated sporting events across the country.
-                                </p><span id="dots1"></span>
-                                
-                                <span id="more1">
-                                    <ul id="list">
-                                        <li>SSN trophy has a footfall over 1000 participants</li>
-                                        <li>50+ Institutions from over 5 states across India</li>
-                                        <li>13 events conducted across 8 sports</li>
-                                        <li>Cash Prizes and Awards worth Rs. 5 Lakhs</li>
-                                    </ul>
-                                    
-                                    
-                                    
-                                   <p> Over the years the Opening and closing ceremonies have been graced by various Indian Sportspersons such as Mr.Sharath Kamal, Mr.John Wright, Ms.Anita Paul, Shri.Robin Singh.We would proudly say that SSN Trophy has been a stepping stone for many currently successful sportspersons from other colleges have participated in SSN Trophy on their way to professional glory.
-This edition of the SSN Trophy is the edition and it is more special because it is the first year of the decade, we hope that it reaches a whole new level of grandeur, competition and excellence in sports.
-                                    
-                                </p></span>
-                                <button onclick="myFunction2()" id="myBtn1">Read more</button>
-                            <script>
-                                function myFunction2() {
-                                  var dots = document.getElementById("dots1");
-                                  var moreText = document.getElementById("more1");
-                                  var btnText = document.getElementById("myBtn1");
-                                  var lis=document.getElementById("list");
-                                
-                                  if (dots.style.display === "none") {
-                                    dots.style.display = "inline";
-                                    btnText.innerHTML = "Read more"; 
-                                    moreText.style.display = "none";
-                                    lis.style.display = "none";
-                                  } else {
-                                    dots.style.display = "none";
-                                    btnText.innerHTML = "Read less"; 
-                                    moreText.style.display = "inline";
-                                    lis.style.display = "inline";
-                                  }
-                                }
-                                </script>
-                        </div>
-                        
-                    </div>
+                  </div>
+              </div>
+          </div>
+          <div>
+              <h2 style="padding-top: 10px;text-align: center; color: black;" class="abouts">Department of
+                  Mathematics</h2>
+              <div class="cont">The department of Mathematics has 17 faculty members with doctorates working on
+                  diverse
+                  areas such as Fluid Mechanics, Graph Theory, Coding Theory, Image Processing, Fuzzy Theory,
+                  Queuing
+                  Theory,
+                  Functional Analysis, Stochastic Process, Algebra and Topology. The department is a recognized
+                  research
+                  center of Anna University, Chennai and students are pursuing Ph.D. programme.</div>
+          </div>
+          <div class="">
+              <div class="">
+                  <div style="text-align: center;" class="">
+                      <img class="imgf" src="./img/hod-Maths.jpg" alt="Dr. S. Narasimman" scale="0">
+                  </div>
+                  <div class="textf">
+                      <h5>Dr. S. Narasimman</h5>
+                      Head of the Department
+                      <p><strong>Department of Mathematics, SSN College of Engineering</strong></p>
+
+                  </div> <!-- .et_pb_team_member_description -->
+              </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- #about -->
+
     
-                </div>
+    <!--==========================
+      Services Section
+    ============================-->
+    <section id="services">
+      <div class="container wow fadeIn">
+        <div class="section-header">
+          <h3 class="section-title section-description" style="color: #111!important;">Event Details</h3>
+          
+        </div>
+        <button class="collapsible">ESCAPE ROOM</button>
+<div class="content">
+<p>Let's see whether you are talent enough to escape from the room by solving the riddles<br><b>Prelims:</b><br>Multiple choice questions ( maths)
+  and puzzles <br><b>Final:</b><br><b>Round 1 </b>- solving puzzles  pen and paper based <br>
+  <b>Round 2-(top three were selected) </b><br>
+  Solving the riddles that is scattered throughout the room. <br> <b>Contact :</b><br>CHANDRU B 9787275518 <br>
+  SUBASHINI 9791419948</p>  
+</div>
+<button class="collapsible">DUMB-C</button>
+<div class="content" >
+<p>Are you a math wiz who's tired of conventional competitions? Or are you someone who loves express oneself with a myriad of expressions and actions? Do people say that you're great at understanding others with no words being spoken? Or are you simply someone who's looking for some fun? Well look no more! Here's an event that's sure to entertain all of you! Come, participate in the Dumb-C event at Exlog 2020, the State level Mathematical  Symposium organised by the Department of Mathematics at SSN College of Engineering. This isn't just your everyday charades game. It's got different rounds of exciting variations of Dumb-C, each with a Mathematical twist. You don't want to miss this one. Be there on 22nd February  to enjoy the fun. 
+<br><b>Rules:-</b><br>
+Maximum of 3 per team and minimum of 2. <br>
+Judges decisions are final <br>
+<b>3 Rounds:-</b> <br>
+<b>1st :</b> An aptitude test to test your talent. <br>
+<b>2nd :</b> A mathematical term enacted by a teammate and guessed by the others on the team. Team that takes the least time wins. <br>
+<b>3rd :</b> Connect the pictures or Guess the word. 4 pictures will be given and contestants have to understand the similarity shared among them and guess the word. Else one of the contestants will be given a word and 4 relevant terms should be said to guess the word.
+<br><b>Venue :-</b> EH-5 EEE block third floor <br>
+<b>Timings :-</b> <br>
+Round 1: 10.00 am to 11.00 am <br>
+Round 2 : 12.30 pm to 1.30 pm <br>
+Round 3 : 1 .30 pm to 2.30 pm <br>
+
+<b>Contact:-</b> <br>
+Arun V -  8531919708 <br>
+Subhashini S - 8056924790 <br>
+Sowmiya S - 9677947317 <br>  </p>
+
+
+</div>
+<button class="collapsible">AS YOU LIKE IT</button>
+<div class="content">
+<p>As you like it is an event with fun oriented mathematical games. It need not be conceptually intricate to involve deeper computational underpinnings. This event differ sharply from mathematical quiz in that mathematical quiz require specific mathematical expertise to complete, whereas it do not require a deep knowledge of mathematics to play. They are of deep interest in the field of recreational mathematics. These games have simple rules and match procedures with logic and recreation. If you and your team think that you deserve the honour, then this is your opportunity. Come and grab it! . 
+  <br><b>Rules:-</b><br>
+Team consists of maximum of three members. <br>
+There will be ten event with recreational mathematics. <br>
+Each event has separate points based on the performance. <br>
+Final points will be the cumulative score of whole event. <br>
+  
+  <b>Venue :-</b> EH-4 EEE block third floor <br>
+  <b>Timings :-</b> 10.30 am to 2.30 pm <br>
+  
+  <b>Contact :-</b> <br>
+  Avudainayagi M - 9600834865 <br>
+  Abhishek N - 9489013243 <br>
+  Swetha N- 7550206335 <br>
+  </p>
+  
+  
+  </div>
+
+<button class="collapsible">KAHOOT</button>
+<div class="content">
+  <p>Do you have what it takes to answer easy math questions, but with time lurking around the corners? Have a go at this exhilarating and exciting math quiz where your math knowledge and time have a race against each other. Be the fastest one to answer them all and win exciting prizes. Please carry a phone with an excellent internet connection because you're going to need it!
+  <br><b>Contact No:-</b><br>
+  Niranjan - 9791164207
+</div>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+
+      </div>
+    </section><!-- #services -->
+
+  
+
+    <section id="portfolio">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="section-title section-description" style="color: #111!important;">Gallery</h3>
+      
+        </div>
+        
+            
+          
+        
+          <div class="row text-center text-lg-left">
+        
+            <div class="col-lg-3 col-md-4 col-xs-12" >
+              <a href="./images/41.jpg" class="d-block mb-4 h-100">
+                    <img class="img-fluid imgallery img-thumbnail" src="./img/1.jpg" alt="">
+                  </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-12" >
+              <a href="./images/42.jpg" class="d-block mb-4 h-100">
+                    <img class="img-fluid imgallery img-thumbnail" src="./img/2.jpg" alt="">
+                  </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-12" >
+              <a href="./images/43.jpg" class="d-block mb-4 h-100">
+                    <img class="img-fluid imgallery img-thumbnail" src="./img/3.jpg" alt="">
+                  </a>
+            </div>
+            <div class="col-lg-3 col-md-4  col-xs-12" >
+              <a href="./images/44.jpg" class="d-block mb-4 h-100">
+                    <img class="img-fluid imgallery img-thumbnail" src="./img/4.jpg" alt="">
+                  </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-12 ">
+              <a href="./images/45.jpg" class="d-block mb-4 h-100">
+                    <img class="img-fluid imgallery img-thumbnail" src="./img/5.jpg" alt="">
+                  </a>
+            </div>
+            <div class="col-lg-3 col-md-4  col-xs-12" >
+              <a href="./images/46.jpg" class="d-block mb-4 h-100">
+                    <img class="img-fluid imgallery img-thumbnail" src="./img/6.jpg" alt="">
+                  </a>
+            </div>
+            <div class="col-lg-3 col-md-4  col-xs-12" >
+              <a href="./images/47.jpg" class="d-block mb-4 h-100">
+                    <img class="img-fluid imgallery img-thumbnail" src="./img/7.jpg" alt="">
+                  </a>
             </div>
             
-        </div>
-    </section>
-    <section class="blog text-center" id="games" >
-        <div class="container">
-            <div class="row">
-                <div class="offset-sm-2 col-sm-8">
-                    <div class="headerText text-center">
-                        <h2>GAMES</h2>
-                    </div>
-                </div>
+            <div class="col-lg-3 col-md-4 col-xs-12" >
+              <a href="./images/48.jpg" class="d-block mb-4 h-100">
+                    <img class="img-fluid imgallery img-thumbnail" src="./img/8.jpg" alt="">
+                  </a>
             </div>
-            <div class="row">
-                <div class="col-sm-3 icon">
-                    <div class="blogPost">
-                        <div class="imgBx">
-                            <img src="./images/basketball.png" class="img-fluid img-1">
-                        </div>
-                        <div class="content" style="color: whitesmoke;">
-                            <h1>BasketBall</h1>
-                            
-                            <p><strong>Game Incharge :</strong>Mathesh<br><strong>contact no: <a style="color:whitesmoke" href="tel:+918524907907">8524907907</a></strong></p>
+            <div class="col-lg-3 col-md-4  col-xs-12" >
+              <a href="./images/49.jpg" class="d-block mb-4 h-100">
+                    <img class="img-fluid imgallery img-thumbnail" src="./img/9.jpg" alt="">
+                  </a>
+            </div>
+            <div class="col-lg-3 col-md-4  col-xs-12" >
+              <a href="./images/50.jpg" class="d-block mb-4 h-100">
+                    <img class="img-fluid imgallery img-thumbnail" src="./img/10.jpg" alt="">
+                  </a>
+            </div>
+            <div class="col-lg-3 col-md-4  col-xs-12 ">
+              <a href="./images/31.jpg" class="d-block mb-4 h-100">
+                    <img class="img-fluid imgallery img-thumbnail" src="./img/11.jpg" alt="">
+                  </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-12 ">
+              <a href="./images/32.jpg" class="d-block mb-4 h-100">
+                    <img class="img-fluid imgallery img-thumbnail" src="./img/12.jpg" alt="">
+                  </a>
+            </div>
+          </div>
 
-                            
-                            <!-- Button trigger modal -->
-                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-                                Rules
-                            </button>
-  
-                            <!-- Modal -->
-                            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLongTitle">BasketBall</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                    </div>
-                                    <div class="modal-body">
-                                    <ol>
-                                        <li>The team can consist of 12 players maximum.</li>
-                                        <li style="text-align: justify;">The matches will be played in four quarters (10-2-10-5-10-2-10).</li>
-                                        <li>Entry fee : Men -Rs.2000 Women- Rs. 1000</li>
-                                    </ol>
-                                    </div>
-                                    <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                        </div>
+      </div>
+    </section><!-- #portfolio -->
+
+    
+    <section id="team">
+      
+        <div class="container wow fadeIn">
+          <div class="section-header">
+            <h3 class="section-title section-description" style="color: #111!important;">Core Committee</h3>
+            
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+              <div class="box">
+                <h3 style="text-align: left;" class="abouts" >Faculty Incharge</h3>
+                    <div class="">
+                        <p
+                            style="text-align: left;font-weight: 500; font-size: 20px;line-height: 2.5rem;color: #111;">
+                            Dr. S. Sampath
+                            Kumar<br>Dr.
+                            T. M. Rajalaxmi<br> Dr.
+                            M. Shanmugapriya
+                            <br> Dr.V.Vembarasan<br> Dr. R. Sundareswaran</p>
                     </div>
-                </div>
-                <div class="col-sm-3 icon">
-                    <div class="blogPost">
-                        <div class="imgBx">
-                            <img src="./images/tennis.png" class="img-fluid img-1">
-                        </div>
-                        <div class="content">
-                            <h1>Tennis</h1>
-                            <p><strong>Game Incharge :</strong>Mathesh<br><strong>contact no: <a style="color:whitesmoke" href="tel:+918524907907">8524907907</a></strong></p>
-                            <!-- Button trigger modal -->
-                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-                                Rules
-                            </button>
-  
-                            <!-- Modal -->
-                            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLongTitle">BasketBall</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                    </div>
-                                    <div class="modal-body">
-                                    <ol>
-                                        <li>The team can consist of 12 players maximum.</li>
-                                        <li style="text-align: justify;">The matches will be played in four quarters (10-2-10-5-10-2-10).</li>
-                                        <li>Entry fee : Men -Rs.2000 Women- Rs. 1000</li>
-                                    </ol>
-                                    </div>
-                                    <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3 icon">
-                    <div class="blogPost">
-                        <div class="imgBx">
-                            <img src="./images/cricket.png" class="img-fluid img-1">
-                        </div>
-                        <div class="content">
-                            <h1>Cricket</h1>
-                            <p><strong>Game Incharge :</strong>Mathesh<br><strong>contact no: <a style="color:whitesmoke" href="tel:+918524907907">8524907907</a></strong></p>
-                            <!-- Button trigger modal -->
-                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-                                Rules
-                            </button>
-  
-                            <!-- Modal -->
-                            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLongTitle">BasketBall</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                    </div>
-                                    <div class="modal-body">
-                                    <ol>
-                                        <li>The team can consist of 12 players maximum.</li>
-                                        <li style="text-align: justify;">The matches will be played in four quarters (10-2-10-5-10-2-10).</li>
-                                        <li>Entry fee : Men -Rs.2000 Women- Rs. 1000</li>
-                                    </ol>
-                                    </div>
-                                    <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3 icon">
-                    <div class="blogPost">
-                        <div class="imgBx">
-                            <img src="./images/chess.png" class="img-fluid img-1">
-                        </div>
-                        <div class="content">
-                            <h1>Chess</h1>
-                            <p><strong>Game Incharge :</strong>Mathesh<br><strong>contact no: <a style="color:whitesmoke" href="tel:+918524907907">8524907907</a></strong></p>
-                            <!-- Button trigger modal -->
-                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-                                Rules
-                            </button>
-  
-                            <!-- Modal -->
-                            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLongTitle">BasketBall</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                    </div>
-                                    <div class="modal-body">
-                                    <ol>
-                                        <li>The team can consist of 12 players maximum.</li>
-                                        <li style="text-align: justify;">The matches will be played in four quarters (10-2-10-5-10-2-10).</li>
-                                        <li>Entry fee : Men -Rs.2000 Women- Rs. 1000</li>
-                                    </ol>
-                                    </div>
-                                    <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
-            <div class="row">
-                <div class="col-sm-3 icon">
-                    <div class="blogPost">
-                        <div class="imgBx">
-                            <img src="./images/football.png" class="img-fluid img-1">
-                        </div>
-                        <div class="content">
-                            <h1>Football</h1>
-                            <p><strong>Game Incharge :</strong>Mathesh<br><strong>contact no: <a style="color:whitesmoke" href="tel:+918524907907">8524907907</a></strong></p>
-                            <!-- Button trigger modal -->
-                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-                                Rules
-                            </button>
-  
-                            <!-- Modal -->
-                            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLongTitle">BasketBall</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                    </div>
-                                    <div class="modal-body">
-                                    <ol>
-                                        <li>The team can consist of 12 players maximum.</li>
-                                        <li style="text-align: justify;">The matches will be played in four quarters (10-2-10-5-10-2-10).</li>
-                                        <li>Entry fee : Men -Rs.2000 Women- Rs. 1000</li>
-                                    </ol>
-                                    </div>
-                                    <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3 icon">
-                    <div class="blogPost">
-                        <div class="imgBx">
-                            <img src="./images/badminton.png" class="img-fluid img-1">
-                        </div>
-                        <div class="content">
-                            <h1>Badminton</h1>
-                            <p><strong>Game Incharge :</strong>Mathesh<br><strong>contact no: <a style="color:whitesmoke" href="tel:+918524907907">8524907907</a></strong></p>
-                            <!-- Button trigger modal -->
-                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-                                Rules
-                            </button>
-  
-                            <!-- Modal -->
-                            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLongTitle">BasketBall</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                    </div>
-                                    <div class="modal-body">
-                                    <ol>
-                                        <li>The team can consist of 12 players maximum.</li>
-                                        <li style="text-align: justify;">The matches will be played in four quarters (10-2-10-5-10-2-10).</li>
-                                        <li>Entry fee : Men -Rs.2000 Women- Rs. 1000</li>
-                                    </ol>
-                                    </div>
-                                    <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3 icon">
-                    <div class="blogPost">
-                        <div class="imgBx">
-                            <img src="./images/tabletennis.png" class="img-fluid img-1">
-                        </div>
-                        <div class="content">
-                            <h1>Table Tennis</h1>
-                            <p><strong>Game Incharge :</strong>Mathesh<br><strong>contact no: <a style="color:whitesmoke" href="tel:+918524907907">8524907907</a></strong></p>
-                            <!-- Button trigger modal -->
-                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-                                Rules
-                            </button>
-  
-                            <!-- Modal -->
-                            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLongTitle">BasketBall</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                    </div>
-                                    <div class="modal-body ">
-                                    <ol>
-                                        <li>The team can consist of 12 players maximum.</li>
-                                        <li style="text-align: justify;">The matches will be played in four quarters (10-2-10-5-10-2-10).</li>
-                                        <li>Entry fee : Men -Rs.2000 Women- Rs. 1000</li>
-                                    </ol>
-                                    </div>
-                                    <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3 icon">
-                    <div class="blogPost">
-                        <div class="imgBx">
-                            <img src="./images/squash.png" class="img-fluid img-1">
-                        </div>
-                        <div class="content">
-                            <h1>Squash</h1>
-                            <p><strong>Game Incharge :</strong>Mathesh<br><strong>contact no: <a style="color:whitesmoke" href="tel:+918524907907">8524907907</a></strong></p>
-                            <!-- Button trigger modal -->
-                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-                                Rules
-                            </button>
-  
-                            <!-- Modal -->
-                            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLongTitle">BasketBall</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                    </div>
-                                    <div class="modal-body">
-                                    <ol>
-                                        <li>The team can consist of 12 players maximum.</li>
-                                        <li style="text-align: justify;">The matches will be played in four quarters (10-2-10-5-10-2-10).</li>
-                                        <li>Entry fee : Men -Rs.2000 Women- Rs. 1000</li>
-                                    </ol>
-                                    </div>
-                                    <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+              <div class="box">
+                <h3 style="text-align: left;" class="abouts">Event Heads</h3>
+                <p style="text-align: left;font-weight: 500; font-size: 20px;line-height: 2.5rem;">
+                  <a href="https://instagram.com/suvee_ggg_everlaughing?igshid=110iq1244rqmb "
+                  style="color:#111">Suvetha G</a><br>
+                  <a href="https://instagram.com/_axel._.blaze_?igshid=n1nz8ao6298n
+                    " style="color:#111">Chandru B</a>
+                      
+                </p>
+              </div>
             </div>
-        </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+              <div class="box">
+                <h3 style="text-align: left;" class="abouts">Event Coordinators</h3>
+                <p style="text-align: left;font-weight: 500; font-size: 20px;line-height: 2.5rem">
+                  <a href="https://instagram.com/arun_since1998?igshid=ikybwui567xt" style="color:#111">Arun
+                    V</a>
+                     <br> <a href="https://instagram.com/_.arthiii._?igshid=vyqeoeqqspj8
+                    " style="color:#111">Avudainayagi M</a> <br>
+                    <a href="https://instagram.com/blood_bones_and_flesh?igshid=17hyn2urc9ttn
+                    " style="color: #111;">Arun k</a><br>
+                    <a href="" style="color: #111;">Swetha N</a>
+                </p>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+              <div class="box">
+                <h3 style="text-align: left;" class="abouts">Registration Committee</h3>
+                    <p style="text-align: left;font-weight: 500; font-size: 20px;line-height: 2.5rem;">
+                        <a href="https://www.instagram.com/ponniyin._.selvan/" style="color:#111">Rajeswara Rajan
+                            M</a> <br> 
+                        <a href="" style="color: #111;">Abhishek N</a>
+                        <a href="" style="color: #111;">Arvindh</a>
+                        <a href="" style="color: #111;">Narendra Varma</a>
+                    </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+              <div class="box">
+               
+                <h3 style="text-align: left;" class="abouts">Publicity Committee</h3>
+                <p style="text-align: left;font-weight: 500; font-size: 20px;line-height: 2.5rem;">
+                    <a href="https://instagram.com/aadhi___vcp?igshid=3k3e4e8t8brr
+                    " style="color:#111">Aadhavan</a>
+                </p>
+                
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+              <div class="box">
+                <h3 id="gal" style="text-align: left;" class="abouts">Website</h3>
+                <p style="text-align: left;font-weight: 500; font-size: 20px;line-height: 2.5rem;">
+                    <a href=""style="color:#111">Kishore</a><br>
+                    <a href=""style="color:#111">Mano Balaje</a><br>
+                    <a href=""style="color:#111">Naresh Kumar</a>
+                </p>
+              </div>
+            </div>
+          </div>
+  
+      </div>
     </section>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script type="text/javascript">
-        $(document).scroll(function(){
-            $('.navbar').toggleClass('Scrolled',$(this).scrollTop() > $('.navbar').height());
-        });
-    </script>
+    
+    <section id="contact">
+      <div class="container wow fadeInUp">
+        <div class="section-header">
+          <h3 class="section-title section-description" style="color: #111!important;">Contact Us</h3>
+          
+        </div>
+
+        
+          <div class="headerText text-center">
+              <h2 class="">Venue</h2>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12594.567060114801!2d80.19200997405815!3d12.753241038173716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52513023d36f67%3A0x96830f356147003e!2sSSN%20Engineering%20College-Department%20of%20EEE!5e0!3m2!1sen!2sin!4v1581573759347!5m2!1sen!2sin"  frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+          </div>
+      
+      
+
+      <!-- Uncomment below if you wan to use dynamic maps -->
+     </div>
+      <div class="container wow fadeInUp mt-5">
+        <div class="text-center">
+
+          
+            
+
+            <div class="social-links">
+              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            </div>
+
+           
+
+          
+         
+
+        </div>
+
+      </div>
+    </section><!-- #contact -->
+
+  </main>
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+
+      </div>
+    </div>
+
+    <div class="container">
+      
+      <div class="credits">
+        <!--
+          All the links in the footer should remain intact.
+          You can delete the links only if you purchased the pro version.
+          Licensing information: https://bootstrapmade.com/license/
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Regna
+        -->
+        Designed by <a href="https://bootstrapmade.com/">Kishore</a> &amp; <a href="">  Mano</a>
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
 </body>
-</html> 
+</html>
