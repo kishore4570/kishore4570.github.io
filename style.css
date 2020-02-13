@@ -179,7 +179,7 @@ p{
         height: 100vh;
         background:url("./images/7.jpg");
         background-repeat: no-repeat;
-        background-color: #000!important;
+        
         background-size: cover;
     }
     .contentBox{
